@@ -27,3 +27,5 @@ origin  https://github.com/ebenezer9840/fxall_code.git (push)
 
  
 git remote set-url https://github.com/ebenezer9840/fxall_code.git		
+
+git rm filename.txt

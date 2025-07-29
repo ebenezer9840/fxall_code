@@ -1,0 +1,29 @@
+1.)  git init    --> To intialize a GIT local repository
+2.) git config --global user.name "ebenezer9840"   --> Should config git email as per setup
+2.A) git config --global user.email "ebenezer9840@gmail.com"
+3.)   git clone https://github.com/ebenezer9840/fxall_code.git
+      Cloning into 'fxall_code'...
+      fatal: unable to access 'https://github.com/ebenezer9840/fxall_code.git/': SSL certificate problem: unable to get local issuer certificate
+4.) for above error: git config --global http.sslbackend schannel
+5.) also can create (ssh-keygen -t rsa -C "rajan.israel@lseg.com" -b 4096)  SSH key and save in GITHUB Profile and 
+6.) git clone https://github.com/ebenezer9840/fxall_code.git
+      
+  Origin  => https://github.com/ebenezer9840/fxall_code.git
+  
+7.) git config --list ==> to see config details
+8.)      warning: LF will be replaced by CRLF 
+        git config --global core.autocrlf true
+9.) git add filename
+10.)  git commit -m "first commit"
+      [main 60969af] first commit
+       1 file changed, 153 insertions(+)
+         create mode 100644 perl.pl
+11.) git push
+
+
+$ git remote -v
+origin  https://github.com/ebenezer9840/fxall_code.git (fetch)
+origin  https://github.com/ebenezer9840/fxall_code.git (push)
+
+ 
+git remote set-url https://github.com/ebenezer9840/fxall_code.git		

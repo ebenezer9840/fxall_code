@@ -1,0 +1,22 @@
+Unix COmmmands
+Syste wide alias and functions /etc/bashrc
+environment /etc/profile
+list of users /etc/password
+
+
+PS1="[\u@\h \D{%Y%m%d-%H:%M:%S}]\$ "   --> terminal Ui change
+
+
+$PATH --> command like uptime been takne from this path only 
+
+history
+
+111 uptime
+# !111   --> will rerun the same command
+
+
+keyboard input will be 0
+bash out will give 2 output which is 1 STDOUT and 2 STDERR
+
+keyboard --> bash --> STDOUT       
+                      STDERR
